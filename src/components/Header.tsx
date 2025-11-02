@@ -30,7 +30,7 @@ export default function Header() {
             style={{ objectFit: "contain" }}
           />
           <span className="text-lg font-extrabold text-blue-600 tracking-tight">
-            THETABTECH
+            PROJECTPLUS'INTL
           </span>
         </Link>
 
