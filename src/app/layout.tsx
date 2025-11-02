@@ -4,13 +4,13 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.thetabtech.com"),
+  metadataBase: new URL("https://www.ProjectPlusintl.com"),
   title: {
-    default: "TheTabTech",
-    template: "%s | TheTabTech",
+    default: "ProjectPlusintl",
+    template: "%s | ProjectPlusintl",
   },
   description:
-    "TheTabTech delivers secure cloud, DevOps, and digital health IT solutions. We help organizations innovate faster with confidence.",
+    "ProjectPlusintl delivers secure cloud, DevOps, and digital health IT solutions. We help organizations innovate faster with confidence.",
   keywords: [
     "cloud computing",
     "DevOps",
@@ -19,22 +19,22 @@ export const metadata: Metadata = {
     "cybersecurity",
     "AWS",
     "digital transformation",
-    "TheTabTech",
+    "ProjectPlusintl",
   ],
-  applicationName: "TheTabTech",
+  applicationName: "ProjectPlusintl",
   openGraph: {
-    title: "TheTabTech — Cloud, DevOps & Health IT Experts",
+    title: "ProjectPlusintl — Cloud, DevOps & Health IT Experts",
     description:
-      "Secure, automate, and innovate with TheTabTech. Cloud & DevOps consulting for regulated industries.",
-    url: "https://www.thetabtech.com",
-    siteName: "TheTabTech",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "TheTabTech" }],
+      "Secure, automate, and innovate with ProjectPlusintl. Cloud & DevOps consulting for regulated industries.",
+    url: "https://www.ProjectPlusintl.com",
+    siteName: "ProjectPlusintl",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "ProjectPlusintl" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TheTabTech",
+    title: "ProjectPlusintl",
     description:
       "Secure cloud, DevOps automation, and digital health solutions that deliver outcomes.",
     images: ["/og-image.png"],
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
   },
   alternates: {
-    canonical: "https://www.thetabtech.com",
+    canonical: "https://www.ProjectPlusintl.com",
   },
 };
 
@@ -64,11 +64,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "TheTabTech, LLC",
-              url: "https://www.thetabtech.com",
-              logo: "https://www.thetabtech.com/logo-blue.svg",
+              name: "ProjectPlusintl, LLC",
+              url: "https://www.ProjectPlusintl.com",
+              logo: "https://www.ProjectPlusintl.com/logo-blue.svg",
               sameAs: [
-                "https://www.linkedin.com/company/thetabtech"
+                "https://www.linkedin.com/company/ProjectPlusintl"
                 // add other profiles if you have them
               ],
             }),

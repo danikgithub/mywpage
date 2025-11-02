@@ -22,7 +22,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/logo-blue.svg"
-            alt="TheTabTech logo"
+            alt=" logo"
             width={70}
             height={70}
             priority
@@ -30,7 +30,7 @@ export default function Header() {
             style={{ objectFit: "contain" }}
           />
           <span className="text-lg font-extrabold text-blue-600 tracking-tight">
-            THETABTECH
+            
           </span>
         </Link>
 
